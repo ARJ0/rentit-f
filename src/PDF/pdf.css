@@ -1,0 +1,174 @@
+.receipt-header::before {
+    content: "RENTIT";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-40deg);
+    opacity: 0.3;
+    font-size: 10em;
+    color: #dcdcdc;
+    pointer-events: none;
+}
+.text-danger strong {
+    color: #9f181c;
+}
+
+.receipt-main p {
+    color: #333333;
+    line-height: 1.42857;
+}
+
+.receipt-footer h1 {
+    font-size: 15px;
+    font-weight: 400 !important;
+    margin: 0 !important;
+}
+
+.receipt-main thead {
+    background: #414143 none repeat scroll 0 0;
+}
+
+.receipt-right h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 7px 0;
+    margin-top: 30px;
+}
+
+.receipt-right p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.receipt-right p i {
+    text-align: center;
+    width: 18px;
+}
+
+.receipt-main td {
+    padding: 9px 20px !important;
+}
+
+.receipt-main th {
+    padding: 13px 20px !important;
+}
+
+.receipt-main td {
+    font-size: 13px;
+    font-weight: initial !important;
+}
+
+.receipt-main td p:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.receipt-main td h2 {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.receipt-header-mid .receipt-left h1 {
+    font-weight: 100;
+    margin: 34px 0 0;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.receipt-header-mid {
+    margin: 24px 0;
+    overflow: hidden;
+}
+
+#container-pdf {
+    background-color: #dcdcdc;
+}
+
+.watermark-container {
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.receipt-main {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.receipt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.receipt-left img {
+    width: 71px;
+    border-radius: 43px;
+}
+
+.receipt-right {
+    text-align: right;
+}
+
+.receipt-right h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.receipt-right p {
+    margin: 5px 0;
+}
+
+.receipt-header-mid {
+    margin-bottom: 20px;
+}
+
+.table-bordered {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.text-right,
+.text-xl-end {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-danger {
+    color: red;
+}
+
+.receipt-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.receipt-footer h5 {
+    color: #8c8c8c;
+}
+
+.receipt-footer h1 {
+    font-size: 24px;
+    color: #000;
+}

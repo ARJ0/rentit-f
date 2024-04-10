@@ -1,0 +1,169 @@
+main {
+    max-width: 2560px;
+    margin: 0 auto;
+}
+
+.banner {
+    margin-top: 100px;
+    background-color: #222;
+    color: #fff;
+    padding: 100px 0px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 22px;
+    color: #fff;
+}
+
+.job-listing {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 1200px;
+    align-content: center;
+    margin: auto;
+}
+
+.job-listing h2 {
+    /* margin-top: 15px; */
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.job-listing ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.job-listing li {
+    margin-bottom: 10px;
+}
+
+.job-listing .job-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.job-item {
+    background: #0C056D;
+}
+
+.job-item-content {
+    background: #fff;
+    color: #000;
+}
+
+.job-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.job-item-locations {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-item-experience {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-item-responsibilities {
+    margin-bottom: 10px;
+}
+
+.job-item-info>ul,
+.job-item-info,
+.job-item-info-exp {
+    margin-left: 30px;
+}
+
+.job-item-content {
+    display: none;
+    padding: 10px;
+}
+
+.job-item.active .job-item-content {
+    display: block;
+}
+
+.benefits-section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.benefits-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.benefits-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.application-instructions {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.application-instructions h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.application-instructions p {
+    margin-bottom: 10px;
+}
+
+.join-us>ul {
+    display: block;
+    text-align: center;
+}
+
+.join-us>ul>li:hover {
+    font-size: larger;
+    color: #0C056D;
+    cursor: pointer;
+}
+
+.mailto {
+    text-align: center;
+}
+
+.mailto-link::after {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mailto-link::after:hover {
+    text-decoration: none;
+    color: 0C056D;
+}
